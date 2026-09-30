@@ -1,0 +1,466 @@
+[
+  {
+    "name": "Jogging",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 30,
+    "tags": ["lose_weight", "endurance"],
+    "image": "https://i.postimg.cc/8C212gz5/6f717c04f3d4cb0aee1fc9332ec6f7a1.jpg"
+  },
+  {
+    "name": "HIIT Circuit",
+    "sets": 5,
+    "reps": 10,
+    "durationMinutes": 20,
+    "tags": ["lose_weight", "endurance", "fast"],
+    "image": "https://i.postimg.cc/CLTqj9Cw/f65e50343325357dd94e4178ea88f543.jpg"
+  },
+  {
+    "name": "Bench Press",
+    "sets": 4,
+    "reps": 8,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/zvd41TFj/6f0a8e81dfb10ce4d1f5126120797d6e.jpg"
+  },
+  {
+    "name": "Deadlifts",
+    "sets": 4,
+    "reps": 6,
+    "durationMinutes": 20,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/4NkWmLm9/ea588591f1b01ef46674b025d489d4c1.jpg"
+  },
+  {
+    "name": "Cycling",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 45,
+    "tags": ["lose_weight", "endurance", "maintain"],
+    "image": "https://i.postimg.cc/BvkxRbFK/508f35aac13a73934599b6462118805d.jpg"
+  },
+  {
+    "name": "Push-ups",
+    "sets": 3,
+    "reps": 15,
+    "durationMinutes": 10,
+    "tags": ["maintain", "build_muscle"],
+    "image": "https://i.postimg.cc/j58rsVsP/4f52c775e1e7d4251aae952f7c1df59c.jpg"
+  },
+  {
+    "name": "Yoga",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 40,
+    "tags": ["maintain", "endurance", "slow"],
+    "image": "https://i.postimg.cc/WbTf5YTP/f065b6af24b7d09d4a9f92f306457f1e.jpg"
+  },
+  {
+    "name": "Squats",
+    "sets": 4,
+    "reps": 12,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "maintain"],
+    "image": "https://i.postimg.cc/rFfgQ8fS/e4fcf7a1705620129624cfb0f2d369cf.jpg"
+  },
+  {
+    "name": "Jump Rope",
+    "sets": 3,
+    "reps": 2,
+    "durationMinutes": 15,
+    "tags": ["lose_weight", "fast"],
+    "image": "https://i.postimg.cc/GtqP7Qxc/b389db0085176a1fa19681c0355ba92e.jpg"
+  },
+  {
+    "name": "Plank",
+    "sets": 3,
+    "reps": 1,
+    "durationMinutes": 3,
+    "tags": ["maintain", "build_muscle"],
+    "image": "https://i.postimg.cc/nhtVSJMh/f580d5dd0492bd8f04dbff6c41c52856.jpg"
+  },
+  {
+    "name": "Overhead Press",
+    "sets": 4,
+    "reps": 10,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/g0sJpxxK/overhead-press.jpg"
+  },
+  {
+    "name": "Barbell Row",
+    "sets": 4,
+    "reps": 8,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/4dSnnTQJ/barbell-row.jpg"
+  },
+  {
+    "name": "Incline Dumbbell Press",
+    "sets": 4,
+    "reps": 12,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/vmF0Q5RM/incline-dumbbell-press.jpg"
+  },
+  {
+    "name": "Pull-ups",
+    "sets": 4,
+    "reps": 8,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/gk50m1dQ/pullups.jpg"
+  },
+  {
+    "name": "Dips",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/hPbmLwKX/dips.jpg"
+  },
+  {
+    "name": "Lunges",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/qvyxKxzM/lunges.jpg"
+  },
+  {
+    "name": "Bulgarian Split Squats",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/W3RnGgjs/bulgarian-split-squat.jpg"
+  },
+  {
+    "name": "Mountain Climbers",
+    "sets": 3,
+    "reps": 30,
+    "durationMinutes": 5,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/jq6NkSg6/mountain-climbers.jpg"
+  },
+  {
+    "name": "Burpees",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 10,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/vB0jnQQp/burpees.jpg"
+  },
+  {
+    "name": "Sprinting",
+    "sets": 8,
+    "reps": 50,
+    "durationMinutes": 12,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/zG3FPMh6/sprinting.jpg"
+  },
+  {
+    "name": "Walking",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 30,
+    "tags": ["lose_weight", "slow", "endurance"],
+    "image": "https://i.postimg.cc/QNQ9X6RP/walking.jpg"
+  },
+  {
+    "name": "Swimming",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 30,
+    "tags": ["lose_weight", "endurance", "maintain"],
+    "image": "https://i.postimg.cc/QtfYzcpF/swimming.jpg"
+  },
+  {
+    "name": "Rowing Machine",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 20,
+    "tags": ["lose_weight", "endurance", "fast"],
+    "image": "https://i.postimg.cc/PxQhS58B/rowing-machine.jpg"
+  },
+  {
+    "name": "Farmer's Carry",
+    "sets": 3,
+    "reps": 1,
+    "durationMinutes": 5,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/3RVJgVcb/farmers-carry.jpg"
+  },
+  {
+    "name": "Face Pulls",
+    "sets": 3,
+    "reps": 15,
+    "durationMinutes": 5,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/MGzJchmn/face-pulls.jpg"
+  },
+  {
+    "name": "Arnold Press",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/pLx8YGH7/arnold-press.jpg"
+  },
+  {
+    "name": "Calf Raises",
+    "sets": 4,
+    "reps": 15,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight", "maintain"],
+    "image": "https://i.postimg.cc/9QxyHz1z/calf-raises.jpg"
+  },
+  {
+    "name": "Glute Bridges",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 8,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/tJ8hcxpD/glute-bridge.jpg"
+  },
+  {
+    "name": "Russian Twists",
+    "sets": 3,
+    "reps": 20,
+    "durationMinutes": 5,
+    "tags": ["lose_weight", "fast", "maintain"],
+    "image": "https://i.postimg.cc/MGFQ8HfD/russian-twists.jpg"
+  },
+  {
+    "name": "Side Plank",
+    "sets": 3,
+    "reps": 1,
+    "durationMinutes": 3,
+    "tags": ["maintain", "build_muscle"],
+    "image": "https://i.postimg.cc/d1MfhMxQ/side-plank.jpg"
+  },
+  {
+    "name": "Chest Fly (Dumbbell)",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/ncB9rrTV/chest-fly.jpg"
+  },
+  {
+    "name": "Incline Bench Press",
+    "sets": 4,
+    "reps": 8,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/xj7bXf1T/incline-bench-press.jpg"
+  },
+  {
+    "name": "Hack Squat",
+    "sets": 4,
+    "reps": 10,
+    "durationMinutes": 20,
+    "tags": ["build_muscle", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/d0KhT7r8/hack-squat.jpg"
+  },
+  {
+    "name": "Leg Press",
+    "sets": 4,
+    "reps": 12,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/L50HKJ3h/leg-press.jpg"
+  },
+  {
+    "name": "Leg Curl",
+    "sets": 3,
+    "reps": 15,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/kGFFjRkM/leg-curl.jpg"
+  },
+  {
+    "name": "Leg Extension",
+    "sets": 3,
+    "reps": 15,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/PJdcG3Rg/leg-extension.jpg"
+  },
+  {
+    "name": "Cable Crossovers",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/3NvMQ3d4/cable-crossover.jpg"
+  },
+  {
+    "name": "Lat Pulldown",
+    "sets": 3,
+    "reps": 10,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/jd0crj7F/lat-pulldown.jpg"
+  },
+  {
+    "name": "Seated Row",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 12,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/TYZKyzNs/seated-row.jpg"
+  },
+  {
+    "name": "Chin-ups",
+    "sets": 3,
+    "reps": 8,
+    "durationMinutes": 10,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/Y0GJdBwx/chin-up.jpg"
+  },
+  {
+    "name": "Front Squat",
+    "sets": 4,
+    "reps": 10,
+    "durationMinutes": 15,
+    "tags": ["build_muscle", "gain_weight", "fast"],
+    "image": "https://i.postimg.cc/Wz9xrrjX/front-squat.jpg"
+  },
+  {
+    "name": "Hip Thrust",
+    "sets": 4,
+    "reps": 10,
+    "durationMinutes": 12,
+    "tags": ["build_muscle", "gain_weight"],
+    "image": "https://i.postimg.cc/dt4B89Jd/hip-thrust.jpg"
+  },
+  {
+    "name": "Tricep Pushdown",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 8,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/3NQYq5rK/tricep-pushdown.jpg"
+  },
+  {
+    "name": "Bicep Curl (Barbell)",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 8,
+    "tags": ["build_muscle", "gain_weight", "maintain"],
+    "image": "https://i.postimg.cc/3wC2cHbH/bicep-curl.jpg"
+  },
+  {
+    "name": "Hammer Curl",
+    "sets": 3,
+    "reps": 12,
+    "durationMinutes": 8,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/7hHfMtnp/hammer-curl.jpg"
+  },
+  {
+    "name": "Box Jumps",
+    "sets": 3,
+    "reps": 10,
+    "durationMinutes": 8,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/50m6C7tk/box-jumps.jpg"
+  },
+  {
+    "name": "Kettlebell Swings",
+    "sets": 3,
+    "reps": 15,
+    "durationMinutes": 10,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/0rDWzT0F/kettlebell-swing.jpg"
+  },
+  {
+    "name": "Shadow Boxing",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 15,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/mD3vVrG1/shadow-boxing.jpg"
+  },
+  {
+    "name": "Elliptical Trainer",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 30,
+    "tags": ["lose_weight", "slow", "endurance"],
+    "image": "https://i.postimg.cc/mgrccMtb/elliptical.jpg"
+  },
+  {
+    "name": "Rowing Intervals",
+    "sets": 5,
+    "reps": 250,
+    "durationMinutes": 15,
+    "tags": ["lose_weight", "fast", "endurance"],
+    "image": "https://i.postimg.cc/PqF9hRzn/rowing-intervals.jpg"
+  },
+  {
+    "name": "Pilates",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 45,
+    "tags": ["maintain", "slow", "endurance"],
+    "image": "https://i.postimg.cc/BnNk9yCW/pilates.jpg"
+  },
+  {
+    "name": "Stretch & Mobility",
+    "sets": 1,
+    "reps": 1,
+    "durationMinutes": 20,
+    "tags": ["maintain", "slow"],
+    "image": "https://i.postimg.cc/Dz3Z6bc9/stretching.jpg"
+  },
+  {
+  "name": "Active Recovery Walk",
+  "sets": 1,
+  "reps": 1,
+  "durationMinutes": 30,
+  "tags": ["lose_weight","gain_weight","maintain","build_muscle","endurance","fast","normal","slow"],
+  "image": "https://i.postimg.cc/9XkG6q3w/active-walk.jpg"
+},
+{
+  "name": "Mobility & Stretching",
+  "sets": 1,
+  "reps": 1,
+  "durationMinutes": 20,
+  "tags": ["lose_weight","gain_weight","maintain","build_muscle","endurance","fast","normal","slow"],
+  "image": "https://i.postimg.cc/DwXq3k2p/mobility-stretch.jpg"
+},
+{
+  "name": "Light Yoga Flow (Recovery)",
+  "sets": 1,
+  "reps": 1,
+  "durationMinutes": 30,
+  "tags": ["lose_weight","gain_weight","maintain","build_muscle","endurance","fast","normal","slow"],
+  "image": "https://i.postimg.cc/4dVg9YqG/light-yoga.jpg"
+},
+{
+  "name": "Foam Rolling & Myofascial Release",
+  "sets": 1,
+  "reps": 1,
+  "durationMinutes": 15,
+  "tags": ["lose_weight","gain_weight","maintain","build_muscle","endurance","fast","normal","slow"],
+  "image": "https://i.postimg.cc/4N2g7GfB/foam-roll.jpg"
+},
+{
+  "name": "Easy Recovery Cycling",
+  "sets": 1,
+  "reps": 1,
+  "durationMinutes": 25,
+  "tags": ["lose_weight","gain_weight","maintain","build_muscle","endurance","fast","normal","slow"],
+  "image": "https://i.postimg.cc/T1kR3nqM/easy-cycling.jpg"
+},
+{
+  "name": "Breathing & Meditation (Recovery)",
+  "sets": 1,
+  "reps": 1,
+  "durationMinutes": 10,
+  "tags": ["lose_weight","gain_weight","maintain","build_muscle","endurance","fast","normal","slow"],
+  "image": "https://i.postimg.cc/6p0qQq9S/breathing.jpg"
+}
+]

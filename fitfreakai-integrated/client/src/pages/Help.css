@@ -1,0 +1,98 @@
+/* Help.css */
+
+.help-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+.help-page-title {
+  text-align: center;
+  color: #ff7f11;
+  margin-bottom: 2rem;
+}
+
+.help-content {
+  display: flex;
+  flex-direction: column; /* ✅ stack mentor first, video second */
+  gap: 2rem;
+}
+
+/* Mentors Section */
+.mentor-section {
+  flex: 1;
+}
+
+.mentor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mentor-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.mentor-card:hover {
+  transform: scale(1.02);
+}
+
+.mentor-profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffb347;
+}
+
+.mentor-details {
+  flex: 1;
+}
+
+.mentor-name {
+  margin: 0;
+  color: #ffb347;
+}
+
+/* Videos Section */
+.video-section {
+  flex: 1;
+}
+
+.videos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.video-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.03);
+}
+
+.video-thumb {
+  width: 100%;
+  display: block;
+}
+
+.video-title {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #ddd;
+  text-align: center;
+}

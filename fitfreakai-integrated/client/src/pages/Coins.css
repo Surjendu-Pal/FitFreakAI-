@@ -1,0 +1,132 @@
+.coins-page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
+  padding: 20px;
+}
+
+.coins-header {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffdd00;
+  text-shadow: 1px 1px 3px #000;
+}
+
+/* Earn More Link */
+.earn-more-link {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #4db8ff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.earn-more-link:hover {
+  color: #1fa2ff;
+}
+
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.shop-item {
+  background: #1f1f1f;
+  border-radius: 12px;
+  padding: 16px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.2s;
+}
+
+.shop-item:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.shop-item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.shop-item-name {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.shop-item-price {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: #ffdd00;
+}
+
+.shop-item-btn {
+  padding: 8px 12px;
+  background: #9b59b6;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.shop-item-btn:hover {
+  background: #8e44ad;
+  transform: translateY(-2px);
+}
+
+/* Popup Styles */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-box {
+  background: #2b2b2b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.popup-box h3 {
+  color: #ffdd00;
+  margin-bottom: 10px;
+}
+
+.popup-box p {
+  color: #ddd;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.popup-close-btn {
+  background: #9b59b6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.popup-close-btn:hover {
+  background: #8e44ad;
+}

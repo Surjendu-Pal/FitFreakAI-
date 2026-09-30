@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Grilled Chicken Salad",
+    "calories": 350,
+    "protein": 40,
+    "carbs": 20,
+    "fats": 10,
+    "tags": ["lose_weight", "maintain"],
+    "image": "https://i.postimg.cc/SKn9L9sM/da61fd25696d34fbcfb53712cbbb5be6.jpg"
+  },
+  {
+    "name": "Oatmeal with Berries",
+    "calories": 300,
+    "protein": 10,
+    "carbs": 55,
+    "fats": 5,
+    "tags": ["lose_weight", "endurance", "slow"],
+    "image": "https://i.postimg.cc/WzBYjVH9/899cd8a3a41364c061f156b0949d69b9.jpg"
+  },
+  {
+    "name": "Salmon with Quinoa",
+    "calories": 500,
+    "protein": 45,
+    "carbs": 35,
+    "fats": 20,
+    "tags": ["build_muscle", "maintain"],
+    "image": "https://i.postimg.cc/sg4Bpcsx/34539710149f717b46edf30b25da5a9e.jpg"
+  },
+  {
+    "name": "Steak and Sweet Potatoes",
+    "calories": 650,
+    "protein": 55,
+    "carbs": 50,
+    "fats": 25,
+    "tags": ["gain_weight", "build_muscle", "fast"],
+    "image": "https://i.postimg.cc/6QHfhwt8/aec6b34deea78245368b3d966e13aae4.jpg"
+  },
+  {
+    "name": "Protein Shake with Banana",
+    "calories": 400,
+    "protein": 35,
+    "carbs": 40,
+    "fats": 5,
+    "tags": ["gain_weight", "build_muscle", "endurance"],
+    "image": "https://i.postimg.cc/Qdhz48Gm/5e8c2bb5c0d84d0b7ea0e030c93ba932.jpg"
+  },
+  {
+    "name": "Vegetable Stir Fry with Tofu",
+    "calories": 350,
+    "protein": 20,
+    "carbs": 45,
+    "fats": 12,
+    "tags": ["lose_weight", "maintain"],
+    "image": "https://i.postimg.cc/CLhhDVry/d5d3c1ec911825c8135b9c0d34a7110f.jpg"
+  },
+  {
+    "name": "Egg Omelette with Whole Grain Toast",
+    "calories": 320,
+    "protein": 25,
+    "carbs": 25,
+    "fats": 12,
+    "tags": ["maintain", "build_muscle"],
+    "image": "https://i.postimg.cc/j2FRtDHz/a345299e7b3e890b10ac4ea6c45eb7f2.jpg"
+  },
+  {
+    "name": "Brown Rice with Lentils",
+    "calories": 450,
+    "protein": 20,
+    "carbs": 70,
+    "fats": 8,
+    "tags": ["endurance", "gain_weight", "slow"],
+    "image": "https://i.postimg.cc/bYWXYfXH/f753ccdd68a267409d384047e476c213.jpg"
+  },
+  {
+    "name": "Greek Yogurt with Nuts",
+    "calories": 280,
+    "protein": 18,
+    "carbs": 15,
+    "fats": 12,
+    "tags": ["lose_weight", "maintain", "slow"],
+    "image": "https://i.postimg.cc/yYZMkpsq/e71b34d4086bf7e0bcbc03534fbab7c9.jpg"
+  },
+  {
+    "name": "Pasta with Chicken Breast",
+    "calories": 550,
+    "protein": 45,
+    "carbs": 65,
+    "fats": 15,
+    "tags": ["gain_weight", "build_muscle", "normal"],
+    "image": "https://i.postimg.cc/sXx8ywwN/e3848a4e7c9545c0cb7cc18a0778d4ed.jpg"
+  }
+]

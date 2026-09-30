@@ -1,0 +1,215 @@
+.calendar-wrapper.small {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  color: #e6e6e6;
+  background:
+    radial-gradient(100% 60% at 50% 0%, rgba(125, 46, 255, 0.14), transparent 70%),
+    rgba(20, 8, 38, 0.7);
+  backdrop-filter: blur(16px) saturate(170%);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 12px 12px 10px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  /* reserve enough vertical space so the wrapper does not change size when skeleton replaced */
+  min-height: 340px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 2px 10px;
+  color: #e6e6e6;
+}
+
+.calendar-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.calendar-header button {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #d8b4fe;
+  transition: all 0.2s ease;
+}
+
+.calendar-header button:hover {
+  background: rgba(125, 46, 255, 0.25);
+  border-color: rgba(168, 85, 247, 0.6);
+  color: #fff;
+}
+
+.calendar-body {
+  min-height: 250px;
+  display: block;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+
+.calendar-wrapper.loaded .calendar-table,
+.calendar-wrapper.skeleton-mode .calendar-table {
+  opacity: 1;
+}
+
+.calendar-table th {
+  padding: 4px 0 8px;
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: #9d8bc0;
+}
+
+.calendar-table tbody tr {
+  height: 38px;
+}
+
+/* minimal: no cell borders */
+.calendar-table td {
+  position: relative;
+  height: 38px;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  color: #e6e6e6;
+  padding: 0;
+}
+
+.date-number {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin: 0 auto 2px;
+  border-radius: 50%;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #e6dcf7;
+  transition: background 0.2s ease;
+}
+
+.calendar-cell:hover .date-number {
+  background: rgba(168, 85, 247, 0.16);
+}
+
+/* today: filled gradient disc with glow */
+.cell-today .date-number {
+  background: linear-gradient(135deg, #7d2eff, #b25dff);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 0 14px rgba(125, 46, 255, 0.75);
+}
+
+/* streak / completed day: neon purple dot under the number */
+.day-dot {
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  width: 5px;
+  height: 5px;
+  margin-left: -2.5px;
+  border-radius: 50%;
+  background: #d8b4fe;
+  box-shadow: 0 0 6px #c084fc, 0 0 12px rgba(168, 85, 247, 0.9);
+}
+
+/* missed day: quiet muted dot */
+.day-dot-missed {
+  background: rgba(255, 130, 130, 0.65);
+  box-shadow: none;
+}
+
+/* legend */
+.calendar-legend {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 8px;
+  font-size: 0.7rem;
+  color: #9d8bc0;
+}
+
+.calendar-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.day-dot-legend {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #d8b4fe;
+  box-shadow: 0 0 6px #c084fc, 0 0 10px rgba(168, 85, 247, 0.8);
+}
+
+.day-dot-legend.missed {
+  background: rgba(255, 130, 130, 0.65);
+  box-shadow: none;
+}
+
+/* Skeleton styling */
+.skeleton-line,
+.skeleton-btn.small,
+.calendar-skeleton-cell {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(183, 117, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.05) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-line {
+  height: 12px;
+}
+.skeleton-line.tiny {
+  height: 8px;
+}
+.skeleton-line.title {
+  width: 100px;
+  height: 14px;
+}
+
+.skeleton-btn.small {
+  width: 30px;
+  height: 20px;
+}
+
+/* make skeleton cells match real cells */
+.calendar-skeleton-cell {
+  height: 36px; /* slightly smaller than date row to look like placeholder */
+  margin: 4px auto;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
